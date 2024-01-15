@@ -1,0 +1,33 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    slf4j = '2.0.7'
+    guava = '31.1-jre'
+    junitJupiter = '5.9.3'
+}
+
+dependencies {
+    api "org.slf4j:slf4j-api:${slf4j}"
+
+    api "com.google.guava:guava:${guava}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitJupiter}"
+    testImplementation 'com.athaydes.rawhttp:rawhttp-core:2.6.0'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+eclipse {
+    classpath {
+        baseSourceOutputDir = file('build/eclipse')
+    }
+}

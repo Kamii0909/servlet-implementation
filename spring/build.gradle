@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junit5 = '5.9.3'
+}
+
+dependencies {
+    api project(":servlet")
+
+    compileOnly 'org.springframework.boot:spring-boot-autoconfigure:[3.0, 4.0)'
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junit5}"
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

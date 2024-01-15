@@ -1,0 +1,25 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    servlet = '6.0.0'
+    junitJupiter = '5.9.3'
+    jetty = '12.0.5'
+}
+
+dependencies {
+    api project(":protocol")
+
+    api "jakarta.servlet:jakarta.servlet-api:${servlet}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitJupiter}"
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

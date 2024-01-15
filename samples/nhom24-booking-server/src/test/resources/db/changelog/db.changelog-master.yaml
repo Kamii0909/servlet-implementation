@@ -1,0 +1,10 @@
+databaseChangeLog:
+    - changeSet:
+          id: 001 - Hotel table
+          author: KienHT
+          dbms: all
+          runOnChange: false
+          runAlways: false
+          failOnError: true
+          runInTransaction: true
+          ignore: false

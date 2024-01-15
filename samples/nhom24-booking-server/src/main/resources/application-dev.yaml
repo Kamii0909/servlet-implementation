@@ -1,0 +1,9 @@
+spring:
+    liquibase:
+        defaultSchema: dev
+        liquibaseSchema: liquibase
+logging:
+    file:
+        name: ./server.log
+    level: 
+        org.hibernate.SQL: DEBUG

@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ServerBootstrap",
+            "request": "launch",
+            "mainClass": "edu.hust.it4409.ServerBootstrap",
+            "projectName": "nhom24-booking-server"
+        },
+        {
+            "type": "java",
+            "name": "PetClinicApplication",
+            "request": "launch",
+            "mainClass": "org.springframework.samples.petclinic.PetClinicApplication"
+        },
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "com.kien.main.Application",
+            "projectName": "servlet"
+        },
+        {
+            "type": "java",
+            "name": "HttpServerMain",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week5.HttpServerMain",
+            "projectName": "homework",
+            "vmArgs": "--enable-preview"
+        },
+        {
+            "type": "java",
+            "name": "NoClientTelnetServerMain",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week4.NoClientTelnetServerMain",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.multiplexing.server.Main",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "NoClientChatServerMain",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week3.NoClientChatServerMain",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "ChatServerMain",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week3.ChatServerMain",
+            "projectName": "homework"
+        },
+        {
+            "type": "java",
+            "name": "Bai34Main",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week1.Bai34Main",
+            "projectName": "homework",
+            "vmArgs": "--enable-preview",
+            "args": "-h localhost -p 8080"
+        },
+        {
+            "type": "java",
+            "name": "Bai12Main",
+            "request": "launch",
+            "mainClass": "edu.hust.it4060.homework.week1.Bai12Main",
+            "projectName": "homework",
+            "vmArgs": "--enable-preview",
+            "args": "-h localhost -p 8080"
+        }
+    ]
+}

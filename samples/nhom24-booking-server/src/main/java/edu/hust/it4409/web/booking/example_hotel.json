@@ -1,0 +1,105 @@
+{
+    "id": 44,
+    "name": "A randomly generated Hotel1",
+    "description": "A randomly generated description",
+    "starRating": 4,
+    "images": [
+        "Image URL for Hotel pic 1"
+    ],
+    "location": "Non existant location",
+    "hotelAmenity": {
+        "commonHotelAmenity": {
+            "internetAmenity": "FREE_ALL",
+            "parkingAmenity": "HAS_NO_PARKING",
+            "breakfastAmenity": {
+                "availability": [
+                    {
+                        "charge": {
+                            "perAdult": {
+                                "amount": 0,
+                                "currency": "VND"
+                            },
+                            "perChild": {
+                                "amount": 0,
+                                "currency": "VND"
+                            },
+                            "free": true
+                        },
+                        "type": "vietnamese",
+                        "time": {
+                            "timeUnit": "Daily",
+                            "start": "05:30:00",
+                            "end": "10:00:00"
+                        },
+                        "free": true
+                    }
+                ],
+                "provided": true
+            },
+            "poolAmenity": {
+                "outdoorPool": 1,
+                "indoorPool": 0,
+                "seasonalPools": [],
+                "poolHour": {
+                    "openFrom": "07:00:00",
+                    "openTo": "17:00:00"
+                },
+                "nearybyPool": {
+                    "hasNearbyIndoorPool": false,
+                    "hasNearbyOutdoorPool": false
+                },
+                "others": {
+                    "hasSteamRoom": false,
+                    "hasSauna": false,
+                    "hasFenceAround": true,
+                    "hasOnsiteLifeguard": true,
+                    "hasPoolUmbrellas": true,
+                    "hasPoolSunLoungers": false,
+                    "hasPoolToys": true
+                }
+            },
+            "guestService": {
+                "smoking": null,
+                "hasLuggageStorage": true,
+                "hasLaundryService": true,
+                "hasConciergeService": false,
+                "hasComputerStation": false,
+                "hasHairSalon": false,
+                "hasMultilingualStaff": false,
+                "hasPorterOrBellhop": true,
+                "hasWeddingService": false
+            }
+        },
+        "additionalAmenity": {
+            "others": []
+        }
+    },
+    "rooms": [
+        {
+            "id": 28,
+            "type": "ROOM",
+            "tier": "ELITE",
+            "roomName": "A randomly generated room",
+            "view": "BEACH_VIEW",
+            "bed": "ONE_QUEEN_BED",
+            "size": "20 sq ft",
+            "costPerNight": {
+                "amount": 1564282,
+                "currency": "VND"
+            }
+        },
+        {
+            "id": 29,
+            "type": "PENTHOUSE",
+            "tier": "ECONOMY",
+            "roomName": "A randomly generated room",
+            "view": "CITY_VIEW",
+            "bed": "ONE_QUEEN_BED",
+            "size": "20 sq ft",
+            "costPerNight": {
+                "amount": 5785548,
+                "currency": "VND"
+            }
+        }
+    ]
+}
